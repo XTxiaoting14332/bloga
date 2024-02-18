@@ -426,7 +426,7 @@ footer:
                 <img src="/img/netlify.svg" alt="Go to the Netlify website"> 
                 </a>
                 <a href="https://www.cloudflare.com/">
-                    <img src="/img/CF.svg" alt="Go to the Cloudflare website"> 
+                    <img src="/img/cf.svg" alt="Go to the Cloudflare website"> 
                     </a>
     </div>
       '
