@@ -419,11 +419,17 @@ open_graph:
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
-  content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
-    <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
-  '
+  content: '<link rel="stylesheet" href="/css/foot.css">
+    <div class="foot">
+                <a href="https://icp.gov.moe/?keyword=20242124" target="_blank" style="color: rgb(194, 194, 194);">萌ICP备20242124号</a><br>
+                <a style="color: rgb(122, 122, 122);">Deployed by</a><a href="https://www.netlify.com/">
+                <img src="/img/netlify.svg" alt="Go to the Netlify website"> 
+                </a>
+                <a href="https://www.cloudflare.com/">
+                    <img src="/img/CF.svg" alt="Go to the Cloudflare website"> 
+                    </a>
+    </div>
+      '
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
@@ -456,7 +462,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: https://t.mwm.moe/fj/
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -528,7 +534,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: https://t.mwm.moe/pc/
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -572,7 +578,7 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: false
+      enable: true
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
@@ -720,11 +726,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: valine
 
 
 #---------------------------
@@ -785,8 +791,8 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: 'GKiI7Am6itMSEpNEGiAJueF2-MdYXbMMI'
+  appKey: 'Q0QFgOQZxPnhFC63h7vd5K7K'
   path: window.location.pathname
   placeholder:
   avatar: 'retro'
@@ -794,9 +800,9 @@ valine:
   requiredFields: []
   pageSize: 10
   lang: 'zh-CN'
-  highlight: false
+  highlight: true
   recordIP: false
-  serverURLs: ''
+  serverURLs: 'https://gkii7am6.api.lncldglobal.com'
   emojiCDN:
   emojiMaps:
   enableQQ: false
@@ -891,7 +897,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://t.mwm.moe/fj/
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -902,7 +908,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://t.mwm.moe/fj/
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -931,7 +937,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://t.mwm.moe/fj/
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -948,7 +954,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://t.mwm.moe/fj/
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: https://s2.loli.net/2024/02/18/WLq75gZiBRQvAhz.webp
