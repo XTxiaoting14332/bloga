@@ -346,7 +346,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -647,7 +647,7 @@ post:
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
   copyright:
-    enable: true
+    enable: false
 
     # CreativeCommons license
     # Options: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND
@@ -1006,22 +1006,22 @@ links:
   # Member item of page
   items:
     - {
-      title: "Fluid Blog",
-      intro: "主题博客",
-      link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
+      title: "Zobyic Realms",
+      intro: "Zobyic Realms官方网站",
+      link: "https://www.zobyic.top/",
+      avatar: "https://s2.loli.net/2024/02/24/oQxmGi46EyOd9Wg.webp"
     }
     - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
+      title: "雪碧博客",
+      intro: "一个菜鸟的博客",
+      link: "https://blog.myxuebi.top/",
+      avatar: "https://s11.ax1x.com/2024/02/15/pFGlL0x.jpg"
     }
     - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
+      title: "MC_DALIU",
+      intro: "一个懒人的博客",
+      link: "https://mc-daliu.github.io",
+      avatar: "https://github.com/MC-DALIU/MC-DALIU/blob/main/%E6%97%A0%E6%A0%87%E9%A2%98.png"
     }
 
   # 当成员头像加载失败时，替换为指定图片
