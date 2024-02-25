@@ -140,7 +140,7 @@ git push
 选择你的仓库
 <br>![](https://pic.imgdb.cn/item/65da2a3d9f345e8d03fdac8f.jpg)<br>
 <br>
-Site name就是作为你博客的二级域名
+Site name就是作为你博客的子域名
 <br>![](https://pic.imgdb.cn/item/65da2afa9f345e8d03ff3bf3.jpg)<br>
 我设置了xtblog，那么netlify分配给我的就是https://xtblog.netlify.app
 <br>
@@ -156,7 +156,7 @@ Site name就是作为你博客的二级域名
 Netlify允许你使用自己的域名，首先我们打开侧边的域名管理
 <br>![](https://pic.imgdb.cn/item/65da31e59f345e8d030d787f.jpg)<br>
 添加你自己的子域名(Add a domain)，这时候他会同时添加主域名，并且要求你使用他的DNS<br>
-如果你这个域名有服务器的话，那我建议不要将二级域名设置为www，因为他会自动重定向到主域名，导致你的博客无法访问，我的建议是使用blog作为二级域名<br>
+如果你这个域名有服务器的话，那我建议不要将子域名设置为www，因为他会自动重定向到主域名，导致你的博客无法访问，我的建议是使用blog作为子域名<br>
 然后我们给域名添加CNAME记录，指向Netlify的域名
 <br>![](https://pic.imgdb.cn/item/65da34929f345e8d0311f444.jpg)<br>
 <br>
