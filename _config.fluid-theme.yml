@@ -420,15 +420,13 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '<link rel="stylesheet" href="/css/footer.css"><br><br>
-    <div class="foot">
-                <a href="https://icp.gov.moe/?keyword=20242124" target="_blank" style="color: rgb(194, 194, 194);">萌ICP备20242124号</a><br>
-                <a style="color: rgb(122, 122, 122);">Deployed by</a><a href="https://www.netlify.com/">
-                <img src="/img/netlify.svg" alt="Go to the Netlify website"> 
+    <a href="https://icp.gov.moe/?keyword=20240150" target="_blank">萌ICP备20240150号</a><br>
+                <a>Deployed by</a><a href="https://www.netlify.com/">
+                <img src="/img/netlify.svg" style="width: 5%; height: 5%;" alt="Go to the Netlify website"> 
                 </a>
                 <a href="https://www.cloudflare.com/">
-                    <img src="/img/cf.svg" alt="Go to the Cloudflare website"> 
+                    <img src="/img/cf.svg" style="width: 5%; height: 5%;" alt="Go to the Cloudflare website"> 
                     </a>
-    </div>
       '
 
   # 展示网站的 PV、UV 统计数
@@ -726,7 +724,7 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: true
+    enable: false
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
