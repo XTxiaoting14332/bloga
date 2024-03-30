@@ -422,7 +422,8 @@ footer:
   content: '
     <a href="https://ipw.cn/ipv6webcheck/?site=blog.zobyic.top" title="本站支持IPv6访问">
       <img alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-s1.svg">
-    </a></br>
+    </a>
+    <a href="https://ipw.cn/ssl/?site=blog.zobyic.top" title="本站支持SSL安全访问"><img alt="本站支持SSL安全访问" src="https://static.ipw.cn/icon/ssl-s1.svg"></a></br>
     <a href="https://icp.gov.moe/?keyword=20240150" target="_blank">萌ICP备20240150号</a><br>
     <a>Deployed by</a><a href="https://www.netlify.com/">
       <img src="/img/netlify.svg" style="width: 5%; height: 5%;" alt="Go to the Netlify website"> 
