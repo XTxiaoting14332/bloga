@@ -1,6 +1,6 @@
 ---
 title: 用http请求智谱清言api
-date: 2024-03-20 12:45:02
+date: 2024-03-30 16:45:02
 tags:
 - ChatGLM
 - http请求

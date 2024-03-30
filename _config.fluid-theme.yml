@@ -419,15 +419,19 @@ open_graph:
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
-  content: '<link rel="stylesheet" href="/css/footer.css"><br><br>
+  content: '
+    <a href="https://ipw.cn/ipv6webcheck/?site=blog.zobyic.top" title="本站支持IPv6访问">
+      <img alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-s1.svg">
+    </a></br>
     <a href="https://icp.gov.moe/?keyword=20240150" target="_blank">萌ICP备20240150号</a><br>
-                <a>Deployed by</a><a href="https://www.netlify.com/">
-                <img src="/img/netlify.svg" style="width: 5%; height: 5%;" alt="Go to the Netlify website"> 
-                </a>
-                <a href="https://www.cloudflare.com/">
-                    <img src="/img/cf.svg" style="width: 5%; height: 5%;" alt="Go to the Cloudflare website"> 
-                    </a>
-      '
+    <a>Deployed by</a><a href="https://www.netlify.com/">
+      <img src="/img/netlify.svg" style="width: 5%; height: 5%;" alt="Go to the Netlify website"> 
+    </a>
+    <a href="https://www.cloudflare.com/">
+      <img src="/img/cf.svg" style="width: 5%; height: 5%;" alt="Go to the Cloudflare website"> 
+    </a>
+  '
+
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
